@@ -1,0 +1,37 @@
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background: url("https://images.pexels.com/photos/163523/war-desert-guns-gunshow-163523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url("https://images.pexels.com/photos/1927975/pexels-photo-1927975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url("https://images.pexels.com/photos/2230885/pexels-photo-2230885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+.carousel-image-4 {
+    background: url("https://images.pexels.com/photos/12935077/pexels-photo-12935077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-image-5 {
+    background: url("https://images.pexels.com/photos/8441817/pexels-photo-8441817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-image-6 {
+    background: url("https://images.pexels.com/photos/12324202/pexels-photo-12324202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+/* เพิ่มเงาหรือพื้นหลังให้ข้อความ */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* เพิ่มพื้นหลังใส */
+    padding: 15px; /* เพิ่มระยะห่าง */
+}

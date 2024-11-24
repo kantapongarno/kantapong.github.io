@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ขายปืน</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <section class="header">
+            <header>
+                <!--navbar-->
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="logo">อาโน</div>
+                        <ul class="nav-list">
+                            <li><a href="#">หน้าหลัก</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">สินค้า</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">ปืนสั้น</a></li>
+                                    <li><a href="#" class="dropdown-item">ปืนยาว</a></li>
+                                    <li><a href="#" class="dropdown-item">กระสุน</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a href="#" class="dropdown-item">ของแต่ง</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li><a href="#Product">สินค้า</a></li> -->
+                            <li><a href="#Service">บริการ</a></li>
+                            <li><a href="#About">เกี่ยวกับเรา</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </section>
+        <br>
+
+        <!-- tab -->
+        <div class="d-flex align-items-start">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="gun-tab" data-bs-toggle="tab" data-bs-target="#gun" type="button" role="tab" aria-controls="gun" aria-selected="true">
+                        ปืน
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="knife-tab" data-bs-toggle="tab" data-bs-target="#knife" type="button" role="tab" aria-controls="knife" aria-selected="false">
+                        มีด
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="boom-tab" data-bs-toggle="tab" data-bs-target="#boom" type="button" role="tab" aria-controls="boom" aria-selected="false">
+                        ระเบิด
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="other-tab" data-bs-toggle="tab" data-bs-target="#other" type="button" role="tab" aria-controls="other" aria-selected="false">
+                        อื่นๆ
+                    </button>
+                </li>
+            </ul>
+        
+            <!-- Tab content -->
+            <div class="tab-content" id="myTabContent">
+                <!-- Gun Tab Content -->
+                <div class="tab-pane fade show active" id="gun" role="tabpanel" aria-labelledby="gun-tab">
+                    1. ปืน Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ex sapiente accusantium illum voluptatum maiores aut officiis voluptatibus optio at.
+                </div>
+        
+                <!-- Knife Tab Content -->
+                <div class="tab-pane fade" id="knife" role="tabpanel" aria-labelledby="knife-tab">
+                    2. มีด Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ex sapiente accusantium illum voluptatum maiores aut officiis voluptatibus optio at.
+                </div>
+        
+                <!-- Boom Tab Content -->
+                <div class="tab-pane fade" id="boom" role="tabpanel" aria-labelledby="boom-tab">
+                    3. ระเบิด Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ex sapiente accusantium illum voluptatum maiores aut officiis voluptatibus optio at.
+                </div>
+        
+                <!-- Other Tab Content -->
+                <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+                    4. อื่นๆ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ex sapiente accusantium illum voluptatum maiores aut officiis voluptatibus optio at.
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- pills -->
+        <div class="d-flex align-items-start">
+            <!-- Vertical Tab Navigation -->
+            <div class="nav flex-column nav-pills" id="v-pills" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="ปืน-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ปืน" type="button" role="tab" aria-controls="v-pills-ปืน" aria-selected="true">
+                    ปืน
+                </button>
+                <button class="nav-link" id="มีด-tab" data-bs-toggle="pill" data-bs-target="#v-pills-มีด" type="button" role="tab" aria-controls="v-pills-มีด" aria-selected="false">
+                    มีด
+                </button>
+                <button class="nav-link" id="ระเบิด-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ระเบิด" type="button" role="tab" aria-controls="v-pills-ระเบิด" aria-selected="false">
+                    ระเบิด
+                </button>
+                <button class="nav-link" id="อื่นๆ-tab" data-bs-toggle="pill" data-bs-target="#v-pills-อื่นๆ" type="button" role="tab" aria-controls="v-pills-อื่นๆ" aria-selected="false">
+                    อื่นๆ
+                </button>
+            </div>
+        
+            <!-- Tab Content -->
+            <div class="tab-content" id="v-pills-tabcontent">
+                <!-- Gun Tab Content -->
+                <div class="tab-pane fade show active" id="v-pills-ปืน" role="tabpanel" aria-labelledby="ปืน-tab">
+                    1. ปืน Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus qui quam labore laudantium voluptas deserunt quaerat nam consectetur repellat perspiciatis?
+                </div>
+                <!-- Knife Tab Content -->
+                <div class="tab-pane fade" id="v-pills-มีด" role="tabpanel" aria-labelledby="มีด-tab">
+                    2. มีด Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus qui quam labore laudantium voluptas deserunt quaerat nam consectetur repellat perspiciatis?
+                </div>
+                <!-- Boom Tab Content -->
+                <div class="tab-pane fade" id="v-pills-ระเบิด" role="tabpanel" aria-labelledby="ระเบิด-tab">
+                    3. ระเบิด Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus qui quam labore laudantium voluptas deserunt quaerat nam consectetur repellat perspiciatis?
+                </div>
+                <!-- Other Tab Content -->
+                <div class="tab-pane fade" id="v-pills-อื่นๆ" role="tabpanel" aria-labelledby="อื่นๆ-tab">
+                    4. อื่นๆ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus qui quam labore laudantium voluptas deserunt quaerat nam consectetur repellat perspiciatis?
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

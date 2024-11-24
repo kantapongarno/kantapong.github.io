@@ -1,0 +1,16 @@
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background: url("https://images.pexels.com/photos/163523/war-desert-guns-gunshow-163523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+    background-size: cover;
+}
+
+/* เพิ่มเงาหรือพื้นหลังให้ข้อความ */
+.carousel-caption {
+    padding: 15px; /* เพิ่มระยะห่าง */
+}
+body {
+    background-color: blue;
+}
